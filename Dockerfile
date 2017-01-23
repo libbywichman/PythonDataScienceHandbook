@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:latest
+FROM jupyter/scipy-notebook:6399d2faf16f
 
 # launchbot-specific labels
 LABEL name.launchbot.io="Python Data Science Handbook"
