@@ -1,16 +1,4 @@
-FROM jupyter/scipy-notebook:6399d2faf16f
-
-# launchbot-specific labels
-LABEL name.launchbot.io="Python Data Science Handbook"
-LABEL workdir.launchbot.io="/usr/workdir"
-LABEL description.launchbot.io="Python Data Science Handbook by Jake VanderPlas."
-LABEL 8888.port.launchbot.io="Jupyter Notebook"
-
-# Set the working directory
+FROM jupyter/scipy-notebook:latest
 WORKDIR /usr/workdir
-
-# Expose the notebook port
 EXPOSE 8888
-
-# Start the notebook server
 CMD jupyter notebook --no-browser --port 8888 --ip=*
