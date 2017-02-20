@@ -1,4 +1,4 @@
-# a note from FDR
+# a note from ANO
 FROM jupyter/scipy-notebook:latest
 WORKDIR /usr/workdir
 EXPOSE 8888
