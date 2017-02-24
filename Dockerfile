@@ -1,4 +1,4 @@
-# a note from ANO
+# a note from Andrew Nicholas Odewahn
 FROM jupyter/scipy-notebook:latest
 WORKDIR /usr/workdir
 EXPOSE 8888
