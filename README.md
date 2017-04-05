@@ -1,4 +1,4 @@
-# Python Data Science Handbook
+# BACON EDITION
 
 Jupyter notebook content for my OReilly book, the
 [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do)
